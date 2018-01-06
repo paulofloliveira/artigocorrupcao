@@ -34,7 +34,7 @@ library(ggplot2)
 # clikc em Skip Quick Start - no canto superior da tela
 
 # autenticar o R com o meu app criado na pagina do Facebook
-fb_oauth <- fbOAuth(app_id="529500980767363", app_secret="b9ac3fb934e1926708242c9dc209fa90", extended_permissions = TRUE)
+fb_oauth <- fbOAuth(app_id="", app_secret="", extended_permissions = TRUE)
 
 save(fb_oauth, file="fb_oauth")
 
